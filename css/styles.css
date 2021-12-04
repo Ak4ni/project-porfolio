@@ -32,7 +32,6 @@ line-height: 1.8;
 h1 {
   font-size: 40px;
   font-weight: var(--h1-weight);
-  text-decoration: underline;
 }
 
 h2 {
@@ -186,6 +185,10 @@ text-decoration: none;
 
   .page-header {
     display: flex;
+    height: 75px;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 20px;
     width: 100%;
     padding: 20px;
    
